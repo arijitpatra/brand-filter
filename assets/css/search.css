@@ -1,0 +1,150 @@
+html, body {
+	width: max-width;
+	height: max-height;
+	border: 0px;
+	padding: 10px;
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.total-container-css{
+	width: 80%;
+}
+
+#brandlist{
+	list-style-type:none;
+}
+
+.hidden {
+	display:none;
+}
+
+.searchbox-container-css{
+	width: 250px;
+	display: inline-block;
+	padding: 5px;
+  	position: relative;
+}
+
+.result-display-container-css{
+	display: inline-block;
+	width: auto;
+	position: absolute;
+	margin-left: 50px;
+}
+
+.hide-details{
+	display: none;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.closebutton-css{
+	position: absolute;
+  	right: 5px;
+	display: none;
+}
+
+#close{
+	font-size: 20px;
+  	cursor: pointer;
+}
+
+.no-result-message-css{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 12px;
+	color: red;
+	width: 250px;
+}
+
+.searchbox-css{
+	font-family: 'Open Sans', sans-serif;
+	padding: 2px;
+	width: 242px;
+}
+
+.ui-menu .ui-menu-item a {
+    text-decoration: none;
+  	display: block;
+ 	 padding: 1px .4em;
+  	line-height: 1;
+  	min-height: 0;
+  	ont-size: 11px;
+}
+
+.ui-menu .ui-menu-item a {
+ 	 text-decoration: none;
+  	display: block;
+  	padding: 1px .4em;
+  	line-height: 1;
+ 	min-height: 0;
+  	font-size: 11px;
+}
+
+.ui-widget {
+  	font-family: 'Open Sans', sans-serif;
+  	font-size: 11px;
+}
+
+#numberofresults{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 12px;
+	color: red;
+	width: 250px;
+}
+
+#headingonlist{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+
+li{
+	margin-left: -35px;
+}
+
+#displaymsg{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 12px;
+	color: red;
+	width: 250px;
+}
+
+#filterbybrandbox{
+	background-color:#FF5F19;
+	color:white;
+	width:250px;
+	height:50px;
+	position: relative;
+}
+
+#filterbybrandtext{
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	position: absolute;
+  	left: 5px;
+  	top: 14px;
+  	cursor: pointer;
+}
+
+#downimg{
+	width: 30px;
+  	float: right;
+  	margin-top: 12px;
+  	cursor: pointer;
+  	font-size: 25px;
+}
+
+#upimg{
+	width: 30px;
+  	float: right;
+  	margin-top: 12px;
+  	cursor: pointer;
+  	display: none;
+  	font-size: 25px;
+}

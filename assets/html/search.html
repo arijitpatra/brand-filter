@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>Search Brands</title>
+	<link rel="stylesheet" type="text/css" href="../css/search.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+</head>
+<body>
+	<div id="total-container" class="total-container-css">
+		<div id="searchbox-container" class="searchbox-container-css">
+			<p id="filterbybrandbox"><span id="filterbybrandtext">FILTER BY BRANDS</span><i id="downimg" class="fa fa-arrow-down"></i><i id="upimg" class="fa fa-arrow-up"></i></p>
+			<div id="filterbox" class="hidden">
+				<span id="headingonlist">Brand Filter: </span>
+				<span id="closebutton" class="closebutton-css"><i id="close" class="fa fa-times" onclick="clickToClose()"></i></span><br>
+				<input type="text" id="searchbox" class="searchbox-css" placeholder="Type out a brand name!">
+				<div id="brandlist-container">
+					<ul id="brandlist">
+						<li id="lenovo" class="brandlist-item" data-value="lenovo"><a href="#lenovo-details">Lenovo</a></li>
+						<li id="apple" class="brandlist-item" data-value="apple"><a href="#apple-details">Apple</a></li>
+						<li id="samsung" class="brandlist-item" data-value="samsung"><a href="#samsung-details">Samsung</a></li>
+						<li id="nokia" class="brandlist-item" data-value="nokia"><a href="#nokia-details">Nokia</a></li>
+						<li id="motorola" class="brandlist-item" data-value="motorola"><a href="#motorola-details">Motorola</a></li>
+						<li id="sony" class="brandlist-item" data-value="sony"><a href="#sony-details">Sony</a></li>
+						<li id="micromax" class="brandlist-item" data-value="micromax"><a href="#micromax-details">Micromax</a></li>
+						<li id="gionee" class="brandlist-item" data-value="gionee"><a href="#gionee-details">Gionee</a></li>
+						<li id="spice" class="brandlist-item" data-value="spice"><a href="#spice-details">Spice</a></li>
+						<li id="karbonn" class="brandlist-item" data-value="karbonn"><a href="#karbonn-details">Karbonn</a></li>
+						<li id="lava" class="brandlist-item" data-value="lava"><a href="#lava-details">Lava</a></li>
+						<li id="htc" class="brandlist-item" data-value="htc"><a href="#htc-details">HTC</a></li>
+						<li id="zen" class="brandlist-item" data-value="zen"><a href="#zen-details">Zen</a></li>
+						<li id="asus" class="brandlist-item" data-value="asus"><a href="#asus-details">Asus</a></li>
+						<li id="blackberry" class="brandlist-item" data-value="blackberry"><a href="#blackberry-details">BlackBerry</a></li>
+					</ul>
+				</div>
+				<p id="displaymsg">We got no clue!</p>
+				<p id="numberofresults"></p>
+				<hr>
+			</div>
+		</div>
+		<div id="result-display-container" class="result-display-container-css">
+			<div id="result-display">
+				<div id="lenovo-details" class="hide-details">
+					<h3>Lenovo</h3>
+					<p>Blah Blah Lenovo!</p>
+				</div>
+				<div id="apple-details" class="hide-details">
+					<h3>Apple</h3>
+					<p>Blah Blah Apple!</p>
+				</div>
+				<div id="samsung-details" class="hide-details">
+					<h3>Samsung</h3>
+					<p>Blah Blah Samsung!</p>
+				</div>
+				<div id="nokia-details" class="hide-details">
+					<h3>Nokia</h3>
+					<p>Blah Blah Nokia!</p>
+				</div>
+				<div id="motorola-details" class="hide-details">
+					<h3>Motorola</h3>
+					<p>Blah Blah Motorola!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../js/search.js"></script>
+</body>
+</html>
